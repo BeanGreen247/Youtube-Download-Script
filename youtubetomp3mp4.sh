@@ -26,7 +26,7 @@ mkdir $directory
 cd $directory
 echo "Enter Download Video URL you want to convert to mp4 : "
 read link
-youtube-dl -i -o "%(title)s.%(ext)s" $link
+youtube-dl -i --format mp4 -o "%(title)s.%(ext)s" $link
 echo "Done converted files are saved in ~/Converted_Youtube_To_MP4/$directory"
 fi
 cd
