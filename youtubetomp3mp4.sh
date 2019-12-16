@@ -1,6 +1,5 @@
 #!/bin/bash
 format=0
-sudo apt install youtube-dl -y
 mkdir ~/Converted_Youtube_To_MP3 
 cd ~/Converted_Youtube_To_MP3/
 echo "Name the folder you want to save the song(s) to:"
