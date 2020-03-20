@@ -14,7 +14,9 @@ Small tweaks
 sudo chmod +x /usr/bin/youtube-dl
 sudo chown 777 /usr/bin/youtube-dl
 ```
-To run the script
+To run the script 
+
+**DO NOT RUN AS SUDO, or files will be stored in /root directory**
 ```
 bash youtubetomp3mp4.sh
 ```
