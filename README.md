@@ -1,8 +1,8 @@
 # Youtube-Download-Script
 
-Make sure to install ffmpeg
+Make sure to install ffmpeg and python
 ```
-sudo apt install ffmpeg
+sudo apt install ffmpeg python
 ```
 A script for downloading content from Youtube
 ```
