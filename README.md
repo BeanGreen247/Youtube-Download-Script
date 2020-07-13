@@ -1,4 +1,4 @@
-# Youtube-Download-Script
+# Youtube Download Script
 
 Make sure to install ffmpeg and python
 ```
