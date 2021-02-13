@@ -6,7 +6,7 @@ sudo apt install ffmpeg python
 ```
 A script for downloading content from Youtube
 ```
-wsudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 ```
