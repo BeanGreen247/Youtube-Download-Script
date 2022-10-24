@@ -29,3 +29,7 @@ To run the script
 ```
 bash youtubetomp3mp4.sh
 ```
+want to download one song at a time? well here you go
+```
+/usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookie cookie.txt -i --format best --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <SongLinkUrlHerePlease>
+```
