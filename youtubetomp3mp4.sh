@@ -16,7 +16,7 @@ if [ $format -eq 1 ]
   cd $directory
   echo "Enter Download Video URL you want to convert to mp3 : "
   read link
-  /usr/local/bin/youtube-dl -i --format best --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" $link
+  /usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookie cookie.txt -i --format best --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" $link
   echo "Done converted files are saved in ~/Converted_Youtube_To_MP3/$directory"
 fi
 if [ $format -eq 2 ]
@@ -29,10 +29,10 @@ if [ $format -eq 2 ]
   cd $directory
   echo "Enter Download Video URL you want to convert to mp4 : "
   read link
-  /usr/local/bin/youtube-dl -i --format mp4 -o "%(title)s.%(ext)s" $link
+  /usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookie cookie.txt -i --format mp4 -o "%(title)s.%(ext)s" $link
   echo "Done converted files are saved in ~/Converted_Youtube_To_MP4/$directory"
 fi
 
-echo "Script by Tomas Mozdren @ beangreen247.github.io 2020"
+echo "Script by Tomas Mozdren @ beangreen247.github.io 2022"
 
 cd
