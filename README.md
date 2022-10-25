@@ -1,12 +1,16 @@
 # Youtube Download Script
 
+Projects used 
+* https://github.com/yt-dlp/yt-dlp
+  * A youtube-dl fork with additional features and fixes 
+
 Make sure to install ffmpeg and python
 ```
 sudo apt install ffmpeg python
 ```
 A script for downloading content from Youtube
 ```
-sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 ```
