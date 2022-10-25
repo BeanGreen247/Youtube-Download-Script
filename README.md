@@ -27,5 +27,5 @@ bash youtubetomp3mp4.sh
 ```
 want to download one song at a time? well here you go
 ```
-/usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookies cookie.txt -i -f b --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <SongLinkUrlHerePlease>
+/usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookies-from-browser firefox -i -f b --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <SongLinkUrlHerePlease>
 ```
