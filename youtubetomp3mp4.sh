@@ -33,6 +33,6 @@ if [ $format -eq 2 ]
   echo "Done converted files are saved in ~/Converted_Youtube_To_MP4/$directory"
 fi
 
-echo "Script by Tomas Mozdren @ beangreen247.github.io 2022"
+echo "Script by Tomas Mozdren @ beangreen247.xyz 2022"
 
 cd
