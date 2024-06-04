@@ -16,7 +16,7 @@ sudo chmod a+rx /usr/local/bin/youtube-dl
 ```
 wget https://raw.githubusercontent.com/BeanGreen247/Youtube-Download-Script/master/youtubetomp3mp4.sh
 ```
-in `--cookies-from-browser firefox` chagne `firefox` to your pefered browser
+in `--cookies-from-browser chrome` chagne `chrome` to your pefered browser
 
 make sure that you are logged into google, youtube and youtube music in your defined browser
 
@@ -28,6 +28,6 @@ bash youtubetomp3mp4.sh
 ```
 want to download one song at a time? well here you go
 ```
-/usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookies-from-browser firefox -i -f b --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <SongLinkUrlHerePlease>
+/usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookies-from-browser chrome -i -f b --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <SongLinkUrlHerePlease>
 ```
-in `--cookies-from-browser firefox` chagne `firefox` to your pefered browser
+in `--cookies-from-browser firefox` chagne `chrome` to your pefered browser
