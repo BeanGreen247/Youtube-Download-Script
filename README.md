@@ -8,6 +8,16 @@ Make sure to install ffmpeg and python
 ```
 sudo apt install ffmpeg python
 ```
+On fedora
+```
+sudo dnf install ffmpeg python pip 
+```
+
+And then for python
+```
+python3 -m pip3 install secretstorage
+```
+
 A script for downloading content from Youtube
 ```
 sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/youtube-dl
@@ -30,4 +40,4 @@ want to download one song at a time? well here you go
 ```
 /usr/local/bin/youtube-dl --hls-prefer-ffmpeg --cookies-from-browser chrome -i -f b --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" <SongLinkUrlHerePlease>
 ```
-in `--cookies-from-browser firefox` chagne `chrome` to your pefered browser
+in `--cookies-from-browser chrome` chagne `chrome` to your pefered browser
